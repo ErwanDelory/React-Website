@@ -56,6 +56,7 @@ const Projects = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <p>J'ai réalisé ces projets durant mon temps libre, mais aussi durant mes études à Polytech Marseille.</p>
       </Container>
       
     </div>

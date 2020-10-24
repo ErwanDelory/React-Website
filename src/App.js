@@ -5,6 +5,7 @@ import FirstPage from './pages/firstPage';
 import Me from './pages/me';
 import Projects from './pages/projects';
 import Skills from './pages/skills';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Me />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

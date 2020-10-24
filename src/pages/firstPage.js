@@ -6,7 +6,8 @@ import { faSortDown } from '@fortawesome/free-solid-svg-icons';
 const FirstPage = () => {
   return(
     <div className="index" id="home">
-      <h1 className="center-text">
+      <div id="background">
+        <h1 className="center-text">
           <span>Erwan DELORY</span>
           <br />
           <br />
@@ -14,7 +15,9 @@ const FirstPage = () => {
           <br />
           <br />
           <a href="#me"><FontAwesomeIcon className="bckg-icon" icon={faSortDown} /></a>
-      </h1>
+        </h1>
+      </div>
+      
     </div>
   );
 }
