@@ -1,20 +1,26 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faTasks } from '@fortawesome/free-solid-svg-icons';
 
 const Menu = () => {
   return (
-    <>
-      <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">Erwan DELORY</Navbar.Brand>
+    <nav>
+      <Navbar bg="light" variant="light" fixed="bottom" className="position-sticky">
+        <Navbar.Brand href="#">Erwan DELORY</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#accueil">Accueil</Nav.Link>
-          <Nav.Link href="#moi">Qui suis-je</Nav.Link>
-          <Nav.Link href="#competences">Compétences</Nav.Link>
-          <Nav.Link href="#projets">Projets</Nav.Link>
+          <Nav.Link href="#home"><FontAwesomeIcon icon={faHome} /> Accueil</Nav.Link>
+          <Nav.Link href="#me"><FontAwesomeIcon icon={faCoffee} /> Qui suis-je</Nav.Link>
+          <Nav.Link href="#skills"><FontAwesomeIcon icon={faCode} /> Compétences</Nav.Link>
+          <Nav.Link href="#projects"><FontAwesomeIcon icon={faTasks} /> Projets</Nav.Link>
         </Nav>
       </Navbar>
-    </>
+    </nav>
   );
 }
 export default Menu;

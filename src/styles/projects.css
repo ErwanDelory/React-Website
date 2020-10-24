@@ -1,0 +1,10 @@
+.projects-title {
+    padding-top: 20px;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.bckg-carousel {
+    background-color: rgba(94, 100, 114, 0.7);
+    border-radius: 8px;
+}
