@@ -7,3 +7,13 @@ footer {
     padding-bottom: 10px;
     color: #292b2c;
 }
+
+.linkedin-icon {
+    color: black;
+    margin-right: 2px;
+}
+
+.github-icon {
+    color: black;
+    margin-left: 2px;
+}
