@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb28249e.chunk.css",
+    "main.js": "/static/js/main.63380362.chunk.js",
+    "main.js.map": "/static/js/main.63380362.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0891bca5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0891bca5.js.map",
+    "static/css/2.76c1a056.chunk.css": "/static/css/2.76c1a056.chunk.css",
+    "static/js/2.a3f25247.chunk.js": "/static/js/2.a3f25247.chunk.js",
+    "static/js/2.a3f25247.chunk.js.map": "/static/js/2.a3f25247.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.76c1a056.chunk.css.map": "/static/css/2.76c1a056.chunk.css.map",
+    "static/css/main.eb28249e.chunk.css.map": "/static/css/main.eb28249e.chunk.css.map",
+    "static/js/2.a3f25247.chunk.js.LICENSE.txt": "/static/js/2.a3f25247.chunk.js.LICENSE.txt",
+    "static/media/angular-project.4155868b.jpg": "/static/media/angular-project.4155868b.jpg",
+    "static/media/firstPage.css": "/static/media/background-index.190bd494.jpg",
+    "static/media/js-project.11f39af9.jpg": "/static/media/js-project.11f39af9.jpg",
+    "static/media/pfe-project.205e1c16.jpg": "/static/media/pfe-project.205e1c16.jpg",
+    "static/media/react-project.6aa45101.jpg": "/static/media/react-project.6aa45101.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0891bca5.js",
+    "static/css/2.76c1a056.chunk.css",
+    "static/js/2.a3f25247.chunk.js",
+    "static/css/main.eb28249e.chunk.css",
+    "static/js/main.63380362.chunk.js"
+  ]
+}

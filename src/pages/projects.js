@@ -60,7 +60,7 @@ const Projects = () => {
             />
             <Carousel.Caption className="bckg-carousel">
               <h3>Projet avec Angular - La Bonne Occase</h3>
-              <p>Création d'une application du comparaison de prix durant un projet avec Polytech Marseille avec Angular et NodeJs.</p>
+              <p>Création d'une application du comparaison de prix avec Angular et NodeJs.</p>
             </Carousel.Caption>
           </Carousel.Item>
 
