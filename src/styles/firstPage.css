@@ -14,13 +14,42 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4vw;
     text-shadow: 5px 5px 5px black;
 }
 
 .subtitle {
     font-style: italic;
     text-shadow: 5px 5px 5px black;
+}
+
+@media (max-width: 480px) {
+    .center-text {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .center-text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .center-text {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1025px) {
+    .center-text {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1601px) {
+    .center-text {
+        font-size: 65px;
+    }
 }
 
 @-webkit-keyframes bounce {

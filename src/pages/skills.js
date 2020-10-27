@@ -1,6 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
+import { faCss3 } from '@fortawesome/free-brands-svg-icons';
+import { faJsSquare } from '@fortawesome/free-brands-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
 import './../styles/skills.css';
 import { Container } from 'react-bootstrap';
 import { PrismCode } from '../components/prismCode';
@@ -38,30 +43,31 @@ const Skills = () => {
     <div id="skills">
       <h2 className="skills-title"><FontAwesomeIcon icon={faCode} /> Mes compétences</h2>
       <Container>
+        <p><FontAwesomeIcon icon={faHtml5}/> HTML5</p>
         <PrismCode 
           code = {html}
           language = "html"
           plugins = {["line-numbers"]}
         />
-
+        <p><FontAwesomeIcon icon={faCss3}/> CSS3</p>
         <PrismCode 
           code = {css}
           language = "css"
           plugins = {["line-numbers"]}
         />
-
+        <p><FontAwesomeIcon icon={faJsSquare}/> JavaScript</p>
         <PrismCode 
           code = {js}
           language = "js"
           plugins = {["line-numbers"]}
         />
-
+        <p><FontAwesomeIcon icon={faDatabase}/> SQL</p>
         <PrismCode 
           code = {sql}
           language = "js"
           plugins = {["line-numbers"]}
         />
-
+        <p><FontAwesomeIcon icon={faReact}/> React</p>
         <PrismCode 
           code = {jsx}
           language = "js"
